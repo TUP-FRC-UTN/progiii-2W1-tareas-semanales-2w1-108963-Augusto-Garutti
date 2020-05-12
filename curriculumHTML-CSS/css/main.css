@@ -1,0 +1,123 @@
+/* main-conteiner*/
+.main-container{
+  display: flex;
+  width: 1200px;
+}
+/* GENERARLES*/
+ul{
+  list-style-type: none;
+}
+.clear{
+  clear: both;
+}
+h1,
+h2{
+  text-transform: uppercase;
+}
+/*------------Aside----------*/
+aside{
+  background-color:#6B7080 ;
+  width: 30%;
+  margin-right: 3%;
+}
+aside *{ 
+  color: white;
+  
+}
+
+aside h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+aside section h2:first-child{
+  border-bottom: 2px solid white;
+}
+#profile-pic img{
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 20px;
+}
+aside figure figcaption{
+  margin-left: 60px;
+}
+
+/*------------MAIN----------*/
+main section > h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.hero {
+  background-color: #A1E1FF;
+  box-shadow: 2px 2px 40px 1px  #5F98B3 inset;
+  padding: 15% 0;
+  text-align: center;
+}
+.hero h1{
+  letter-spacing: 10px;
+}
+.hero h2{
+  color: white;
+  border-top: 2px solid white;
+  letter-spacing: 15px;
+}
+.about-me{
+  background-color: #FFD4A1;
+}
+.about-me h2{
+  background-color: white;
+}
+.about-me p{
+  line-height: 2em;
+  padding: 5px;
+}
+
+article h3,
+article h4,
+article h5{
+font-weight: bold;
+}
+
+article ul{
+    list-style-type: square;
+  }
+/*-------------References---------*/
+.references{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#FFD4A1 ;
+  text-align: center;
+}
+.references article{
+  width: 50%;
+}
+
+/** ---------DL ------*/
+dt{
+  font-weight: bold;
+  clear: left;
+  width: 30%;
+  float: left;
+  border-top: 1px solid white;
+}
+dt,
+dd{
+  line-height: 1.5em;
+  border-top: 1px solid white;
+  flex-basis: 40%;
+  margin: 0;
+}
+dd{
+  clear: right;
+  width: 60%;
+  float: left;
+  margin: 0;
+  border-top: 1px solid white;
+}
+dt:last-of-type,
+dd:last-child {
+border-bottom: 1px solid white;
+}
+dl{
+  display: flex;
+  flex-wrap: wrap;
+}
